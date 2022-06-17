@@ -1,5 +1,5 @@
 # BookTitletoImage
-Takes a list of book titles, goes to indigo.com and scrapes the image found by searching the title. Takes that image and creates a new excel file with titles and images
+Takes a list of book titles from excel file, goes to indigo.com and scrapes the image found by searching the title. Takes that image and creates a new excel file with titles and images
 
 Functions:
 
