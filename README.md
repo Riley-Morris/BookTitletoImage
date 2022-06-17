@@ -2,6 +2,7 @@
 Takes a list of book titles, goes to indigo.com and scrapes the image found by searching the title. Takes that image and creates a new excel file with titles and images
 
 Functions:
+
 generate_link(book_to_find): #returns link to the first image in search results for book_to_find in indigo website
 
 download_image(link_to_image, index):#downloads image to 'book{index}.jpg' in cwd
