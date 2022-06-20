@@ -9,7 +9,7 @@ def generate_link(book_to_find):
     imagefind = soup.find('img')
     link = imagefind['src']
     return link
-#downloads image to 'book1.jpg' in users\riley
+#downloads image to 'book1.jpg' to path below
 def download_image(link_to_image, index):
     r = requests.get(link_to_image, stream=True) #Get request on link_to_image
     with open(f"C:\\Users\\riley\\Documents\\Pyth\\ScrapeBin\\book{index}.jpg", 'wb') as f:
